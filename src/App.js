@@ -13,10 +13,10 @@ function App() {
     }
   };
 
-  useEffect(() => {
+ // useEffect(() => {
     // Llamamos a fetchPokemons aquí para cargar los datos al montar el componente
-    fetchPokemons();
-  }, []);
+   // fetchPokemons();
+  //}, []);
   return (
     <div>
       <button onClick={() => fetchPokemons()}>Fetch Pokemon</button>
